@@ -7,6 +7,31 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button x:Name="Clear" Content="Vider l'interface" Click="BtnClearUtlisateur_Click" HorizontalAlignment="Left" Margin="637,372,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.524,0.52"/>
+        <TextBox x:Name="Searchbox"  HorizontalAlignment="Left" Margin="182,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Numéro stagiare à rechercher" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Search" Content="Chercher" Click="BtnChargUtilisateur_Click"  HorizontalAlignment="Left" Margin="366,30,0,0" VerticalAlignment="Top" Height="20" Width="90"/>
+        <Button x:Name="edit" Content="Créer ou modifier" HorizontalAlignment="Left" Margin="507,30,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="delete" Content="Supprimer"  HorizontalAlignment="Left" Margin="637,30,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Numero" HorizontalAlignment="Left" Margin="28,59,0,0" VerticalAlignment="Top"/>
+        <Label Content="Supprimer par" HorizontalAlignment="Left" Margin="28,341,0,0" VerticalAlignment="Top"/>
+        <Label Content="Prenom" HorizontalAlignment="Left" Margin="28,183,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Margin="28,152,0,0" VerticalAlignment="Top"/>
+        <Label Content="Type" HorizontalAlignment="Left" Margin="28,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="Departement" HorizontalAlignment="Left" Margin="28,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date de Suppression" HorizontalAlignment="Left" Margin="28,310,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ne pas afficher" HorizontalAlignment="Left" Margin="28,279,0,0" VerticalAlignment="Top"/>
+        <Label Content="Mot de passe" HorizontalAlignment="Left" Margin="28,248,0,0" VerticalAlignment="Top"/>
+        <Label Content="Courriel" HorizontalAlignment="Left" Margin="28,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="deleteby" HorizontalAlignment="Left" Margin="182,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="deletedate" HorizontalAlignment="Left" Margin="182,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="notdisplay" HorizontalAlignment="Left" Margin="182,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="182,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="182,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218"/>
+        <TextBox x:Name="Fname" HorizontalAlignment="Left" Margin="182,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Margin="182,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218"/>
+        <TextBox x:Name="type" HorizontalAlignment="Left" Margin="182,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="department" HorizontalAlignment="Left" Margin="182,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="293"/>
+        <TextBox x:Name="number" HorizontalAlignment="Left" Margin="182,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>

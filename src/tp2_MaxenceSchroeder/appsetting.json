@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "SGS": "Data Source=localhost,1402;Initial Catalog=SGS;User ID=sa;Password=Pewpew123!"
+  }
+}
