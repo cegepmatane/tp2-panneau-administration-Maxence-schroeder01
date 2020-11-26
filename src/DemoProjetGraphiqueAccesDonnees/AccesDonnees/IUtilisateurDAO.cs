@@ -1,4 +1,6 @@
-﻿namespace tp2_MaxenceSchroeder.accesDonnees
+﻿using System.Collections.Generic;
+
+namespace DemoProjetGraphiqueAccesDonnees.AccesDonnees
 {
     public interface IUtilisateurDAO
     {
@@ -6,6 +8,7 @@
         Utilisateur Obtenir(int id);
         int MettreAJour(Utilisateur utilisateur);
         int Supprimer(int id);
+        int Supprimerlogique(int id);
         bool Iscreate();
     }
 }
